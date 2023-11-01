@@ -1,18 +1,13 @@
 ## Getting Started
+This program will validate a password within these chosen parameters:
+1. The password's length is between 8 and 16 (inclusive)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+2. The password must be a combination of at least three out of the following four categories:
 
-## Folder Structure
+(1) lower case letters, i.e., a-z
 
-The workspace contains two folders by default, where:
+(2) upper case letters, i.e., A-Z
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+(3) numbers, i.e., 0-9
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+(4) the following special symbols: ~!@#$%^&*()-=+_
